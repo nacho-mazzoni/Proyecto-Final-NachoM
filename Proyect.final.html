@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="js/funciones.js"></script>
+    
+    <header>
+        <h1>CURRICULUM VITAE</h1>    
+    </header>
+    <article id="pantalladividida">
+        <div class="izquierda">
+            <!-- Retrato -->
+            <img src="https://randomuser.me/api/portraits/women/5.jpg" alt="Retrato" width="200" height="200">
+        </div>
+            
+        <div class="derecha">
+            <!-- Experiencia Laboral -->
+            <h2 class="TituloS">Experiencia Laboral</h2>
+            <button id="boton" onclick="mostrar();"> leer más... </button>
+
+            <div id="Mostrar">
+                <h3 class="Subtitulos">Restaurante, Grand`s Cafeteia y Bar</h3>
+                <p class="fechas">2016/2018</p>
+                <h4 class="Parrafos">Moza</h4>
+                    <ul class="Parrafos">
+                        <li>Atención al cliente</li>
+                        <li>Desempeño bajo presión</li>
+                        <li>Captación y Acatación de ordenes</li>
+                    </ul>
+        
+                <h3 class="Subtitulos">Supermercado "La Rosa"</h3>
+                <p class="fechas">2018/2021</p>
+                <h4 class="Parrafos">Vendedor</h4>
+                    <ul class="Parrafos">
+                        <li>Manejo de caja</li>
+                        <li>Reposición y empaquetado de articulos</li>
+                    </ul>
+    
+                <h3 class="Subtitulos">Supermercado "La Rosa"</h3>
+                <p class="fechas">2021/actual</p>
+                <h4 class="Parrafos">Superior Administrativa</h4>
+                    <ul class="Parrafos">
+                        <li>Administracion y gestion de stock</li>
+                        <li>Desempeño en equipo</li>
+                        <li>Administracion de personal y tareas de trabajo</li>
+                    </ul>
+                <button id="boton2" onclick="ocultar();"> menos </button>
+            </div>
+            
+        </div>  
+    </article>
+    <footer class="bordes">
+        <!-- informacion personal -->    
+        <h2 class="TituloS">Informacion Personal</h2>
+            
+            <ul class="Parrafos">
+                <li>Nombre y Apellido: Grace Hunter</li>
+                <li>Edad: 25 Años</li>
+                <li>Direccion: 6331 Bollinger Rd</li>
+                <li>Fecha de Nacimiento: 3/6/1998</li>
+                <li>Numero de Telefono: (428)645-1883</li>
+                <li>Email: grace.hunter@example.com</li>
+            </ul>
+        <!--Habilidades-->
+        <h2  class="TituloS">Habilidades</h2>
+        
+            <ul class="Parrafos">
+                <li>Programación</li>
+                <li>Lenguaje Extranjero: Ingles</li>
+                <li>Análisis</li>
+                <li>Resolución de Problemas</li>
+                <li>Capacitacion para Enseñar</li>
+            </ul>
+        <!-- Aptitudes-->
+        <h2 class="TituloS">Aptitudes</h2>
+            <ul class="Parrafos">
+                <li>Adaptación</li>
+                <li>Cooperación</li>
+                <li>Automotivación</li>
+                <li>Cooworking</li>
+                <li>Apoyo a compañeros</li>
+                <li>Afán de superación</li>
+                <li>Persona dinámica y con iniciativa</li>
+            </ul>   
+    </footer>         
+</body>
+</html>

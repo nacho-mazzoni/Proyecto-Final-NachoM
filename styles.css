@@ -1,0 +1,96 @@
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold 700;
+    color: black;
+}
+ul.Parrafos{
+    font-family: 'Open Sans', sans-serif;
+    font-style: light 300;
+    color: black;
+}
+h3.Subtitulos{
+    font-family: 'Open Sans', sans-serif;
+    font-style: medium 500;
+    color: black;
+}
+h2.TituloS{
+    font-family: 'Open Sans', sans-serif;
+    font-style: SemiBold 600 italic;
+    color: black;
+}
+h4.Parrafos{
+    font-family: 'Open Sans', sans-serif;
+    font-style: light 400;
+    color: black;
+}
+p.fechas{
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    color: grey;
+    font-size: small;
+}
+.derecha{
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    height: 225px;
+}
+.izquierda{
+    width: 30%;
+    height: 225px;
+    float: left;
+}
+#pantalladividida{
+    display: flex;
+}
+.bordes{
+    margin: 0px;
+    padding: 0px;
+    width: 25%;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+}
+footer{
+    background-position: bottom;
+}
+
+#Mostrar{
+    display: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 1200px) {
+    .bordes{
+        border-style: none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #pantalladividida{
+        display: block;
+        margin: 25px;
+    }
+    img{
+        margin: 25px;
+    }
+    .derecha{
+        float:left;
+        width: 100%;
+        height: auto;
+    }
+    .izquierda{
+        float: left;
+        width: 100%;
+    }
+    .bordes{
+        border-style: solid;
+        width: auto;
+        max-height: 50%;
+        max-width: 100%;
+        height: auto;
+    }
+}
